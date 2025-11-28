@@ -38,8 +38,9 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 | `source` | Complete source code with 3-layer architecture packages. |
 | `lib files` | Is the `mssql-jdbc` driver jar. |
 | `resources` | FXML layout files, CSS styles, and SQL script. |
-| `screenshot.png` | Screenshots of implemented featureS. |
 | `Admin.jar` | Runnable JAR file of the application. |
+| `screenshot.png` | Screenshots of implemented featureS. |
+| `README.md` |  Instructions of classes or methods related to the demo feature. |
 
 ## 4. How to Run
 1.  **Database:** Execute the SQL script located in `resources` in SQL Server Management Studio.
