@@ -37,7 +37,7 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 | Folder / File | Description |
 | :--- | :--- |
 | `source` | Complete source code with 3-layer architecture packages. |
-| `mssql-jdbc-13.2.1.jre11` | The lib file. |
+| `mssql-jdbc-13.2.1.jre11.jar` | The lib file. |
 | `resources` | FXML layout files, CSS styles, and SQL script. |
 | `Admin.jar` | Runnable JAR file of the application. |
 | `screenshot.png` | Screenshots of implemented features. |
