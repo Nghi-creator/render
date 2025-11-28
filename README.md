@@ -2,7 +2,6 @@
 
 * **Student ID:** 23127093
 * **Name:** Nguyễn Gia Nghi
-* **Self-Evaluated Score:** 10/10
 
 ---
 
@@ -36,13 +35,13 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 ## 3. Files Included in Submission
 | Folder/File | Description |
 | :--- | :--- |
-| `src/` | Complete source code with 3-layer architecture packages. |
-| `lib/` | Contains the `mssql-jdbc` driver jar. |
-| `resources/` | FXML layout files, CSS styles, and SQL script. |
-| `Create_DB_MSSQL.sql` | T-SQL Script to create the database and dummy data. |
-| `JavaProject.jar` | Runnable JAR file of the application. |
+| `source` | Complete source code with 3-layer architecture packages. |
+| `lib files` | Is the `mssql-jdbc` driver jar. |
+| `resources` | FXML layout files, CSS styles, and SQL script. |
+| `screenshot.png` | Screenshots of implemented featureS. |
+| `Admin.jar` | Runnable JAR file of the application. |
 
 ## 4. How to Run
-1.  **Database:** Execute the SQL script located in `resources/` in SQL Server Management Studio.
+1.  **Database:** Execute the SQL script located in `resources` in SQL Server Management Studio.
 2.  **Config:** If running from source, ensure `DatabaseConnection.java` has the correct SQL Server credentials.
 3.  **Run:** Double-click the provided JAR file or run `AdminApp` in IntelliJ.
