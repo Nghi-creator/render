@@ -40,7 +40,7 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 | `mssql-jdbc-13.2.1.jre11.jar` | The lib file. |
 | `resources` | FXML layout files, CSS styles, and SQL script. |
 | `Admin.jar` | Runnable JAR file of the application. |
-| `screenshot.png` | Screenshots of implemented features. |
+| `screenshots` | Screenshots of implemented features. |
 | `README.md` |  Instructions of classes and methods related to the demo feature. |
 
 ## 4. How to run
