@@ -5,11 +5,12 @@
 
 ---
 
-## 1. Feature Implemented
-**User management (View list & Lock user)**
+## 1. Feature implemented
+**User management (View list & Lock user)** 
+
 This feature allows the admin to view a list of users fetched directly from a Microsoft SQL Server database and lock a specific user account via the GUI.
 
-## 2. Architecture Implementation (3-Layer Model)
+## 2. Architecture implementation (3-Layer Model)
 
 ### Presentation Layer (GUI)
 * **Class:** `controllers.AdminUserViewController`
@@ -42,7 +43,7 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 | `screenshot.png` | Screenshots of implemented featureS. |
 | `README.md` |  Instructions of classes and methods related to the demo feature. |
 
-## 4. How to Run
+## 4. How to run
 1.  **Database:** Execute the SQL script located in `resources` in SQL Server Management Studio.
 2.  **Config:** If running from source, ensure `DatabaseConnection.java` has the correct SQL Server credentials.
 3.  **Run:** Double-click the provided JAR file or run `AdminApp` in IntelliJ.
