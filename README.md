@@ -1,8 +1,8 @@
 # Individual Assignment - User Management Feature
 
-**Student ID:** [INSERT YOUR ID HERE]
-**Name:** [INSERT YOUR NAME HERE]
-**Self-Evaluated Score:** 10/10
+* **Student ID:** 23127093
+* **Name:** Nguyễn Gia Nghi
+* **Self-Evaluated Score:** 10/10
 
 ---
 
