@@ -40,7 +40,7 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 | `resources` | FXML layout files, CSS styles, and SQL script. |
 | `Admin.jar` | Runnable JAR file of the application. |
 | `screenshot.png` | Screenshots of implemented featureS. |
-| `README.md` |  Instructions of classes or methods related to the demo feature. |
+| `README.md` |  Instructions of classes and methods related to the demo feature. |
 
 ## 4. How to Run
 1.  **Database:** Execute the SQL script located in `resources` in SQL Server Management Studio.
