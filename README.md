@@ -1,4 +1,4 @@
-# Individual Assignment - User Management Feature
+# Assignment W08 - User Management Feature
 
 * **Student ID:** 23127093
 * **Name:** Nguyễn Gia Nghi
@@ -6,7 +6,7 @@
 ---
 
 ## 1. Feature Implemented
-**User Management (View List & Lock User)**
+**User management (View list & Lock user)**
 This feature allows the admin to view a list of users fetched directly from a Microsoft SQL Server database and lock a specific user account via the GUI.
 
 ## 2. Architecture Implementation (3-Layer Model)
@@ -32,8 +32,8 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 
 ---
 
-## 3. Files Included in Submission
-| Folder/File | Description |
+## 3. Files included in submission
+| Folder / File | Description |
 | :--- | :--- |
 | `source` | Complete source code with 3-layer architecture packages. |
 | `lib files` | Is the `mssql-jdbc` driver jar. |
