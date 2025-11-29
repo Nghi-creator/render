@@ -8,7 +8,7 @@
 ## 1. Feature implemented
 **User management (View list & Lock user)**
 
-This feature allows the admin to view a list of users fetched directly from a Microsoft SQL Server database and lock a specific user account via the GUI.
+This feature allows the admin to view a list of users fetched directly from a Microsoft SQL Server database. It also includes a "Lock" button in the GUI to demonstrate the user interaction flow for locking an account (UI simulation).
 
 ## 2. Architecture Implementation (3-Layer Model)
 
