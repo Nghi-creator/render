@@ -51,7 +51,7 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 
    Method 1: Open Command Prompt or Terminal, go to the jar folder path and run:
 
-```bash
- java -jar JavaProject.jar
-```
-  Method 2: execute the file AppLauncher.java inside the src folder of source 
+    ```bash
+     java -jar JavaProject.jar
+    ```
+    Method 2: execute the file AppLauncher.java inside the src folder of source 
