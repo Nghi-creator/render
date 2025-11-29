@@ -5,7 +5,7 @@
   
 ---
 
-## 1. Feature implemented
+## 1. Feature Implemented
 **User management (View list & Lock user)**
 
 This feature allows the admin to view a list of users fetched directly from a Microsoft SQL Server database. It also includes a "Lock" button in the GUI to demonstrate the user interaction flow for locking an account (UI simulation).
@@ -33,7 +33,7 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 
 ---
 
-## 3. Files Included in Submission
+## 3. Files included in submission
 | Folder / File | Description |
 | :--- | :--- |
 | `src` | Complete source code with 3-layer architecture packages. |
@@ -43,7 +43,7 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 | `screenshots` | Screenshots of implemented features. |
 | `README.md` | Instructions of classes and methods related to the demo feature. |
 
-## 4. How to Run
+## 4. How to run
 
 1. **Database:** Execute the SQL script located in `resources` in SQL Server Management Studio.
 2. **Config:** Fill in the password and username of your own database in the file `utils/DatabaseConnection.java`.
