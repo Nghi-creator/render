@@ -47,9 +47,10 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 ## 4. How to Run
 
 1.  **Database:** Execute the SQL script located in `resources` in SQL Server Management Studio.
-2.  **Config:** If running from source, ensure `utils/DatabaseConnection.java` has the correct SQL Server credentials (localhost is recommended for grading).
-3.  **Run:** Open a terminal in the jar folder and run:
+2.  **Config:** Customize the password and user of your own database in the file `utils/DatabaseConnection.java`.
+3.  **Config:** If running from source, ensure `utils/DatabaseConnection.java` has the correct SQL Server credentials.
+4.  **Run:** Open Command Prompt or Terminal, go to the jar folder path and run.
+   
         ```bash
         java -jar Admin.jar
         ```
-(`.dylib` files). The command line method above resolves this.
