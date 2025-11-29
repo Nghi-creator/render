@@ -2,15 +2,16 @@
 
 * **Student ID:** 23127093
 * **Name:** Nguyễn Gia Nghi
+* **Self-Evaluated Score:** 10/10
 
 ---
 
-## 1. Feature implemented
-**User management (View list & Lock user)** 
+## 1. Feature Implemented
+**User Management (View list & Lock user)**
 
 This feature allows the admin to view a list of users fetched directly from a Microsoft SQL Server database and lock a specific user account via the GUI.
 
-## 2. Architecture implementation (3-Layer model)
+## 2. Architecture Implementation (3-Layer Model)
 
 ### Presentation Layer (GUI)
 * **Class:** `controllers.AdminUserViewController`
@@ -33,17 +34,23 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 
 ---
 
-## 3. Files included in submission
+## 3. Files Included in Submission
 | Folder / File | Description |
 | :--- | :--- |
-| `source` | Complete source code with 3-layer architecture packages. |
-| `mssql-jdbc-13.2.1.jre11.jar` | The lib file. |
+| `src` | Complete source code with 3-layer architecture packages. |
+| `lib` | Contains the `mssql-jdbc` driver jar. |
 | `resources` | FXML layout files, CSS styles, and SQL script. |
 | `Admin.jar` | Runnable JAR file of the application. |
 | `screenshots` | Screenshots of implemented features. |
-| `README.md` |  Instructions of classes and methods related to the demo feature. |
+| `README.md` | Instructions of classes and methods related to the demo feature. |
 
-## 4. How to run
+## 4. How to Run
+
 1.  **Database:** Execute the SQL script located in `resources` in SQL Server Management Studio.
-2.  **Config:** If running from source, ensure `DatabaseConnection.java` has the correct SQL Server credentials.
-3.  **Run:** Double-click the provided JAR file or run `AdminApp` in IntelliJ.
+2.  **Config:** If running from source, ensure `utils/DatabaseConnection.java` has the correct SQL Server credentials (localhost is recommended for grading).
+3.  **Run:**
+    * **Recommended:** Open a terminal in the jar folder and run:
+        ```bash
+        java -jar Admin.jar
+        ```
+    * **Note for macOS:** If the app fails to launch via double-click, it is likely due to security restrictions on the native JavaFX libraries (`.dylib` files). The command line method above resolves this.
