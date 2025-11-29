@@ -47,7 +47,10 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 
 1. **Database:** Execute the SQL script located in `resources` in SQL Server Management Studio.
 2. **Config:** Fill in the password and username of your own database in the file `utils/DatabaseConnection.java`.
-3. **Run:** Open Command Prompt or Terminal, go to the jar folder path and run:
+3. **Run:**
+   Method 1: Open Command Prompt or Terminal, go to the jar folder path and run:
 
 ```bash
  java -jar JavaProject.jar
+```
+  Method 2: execute the file AppLauncher.java inside the src folder of source 
