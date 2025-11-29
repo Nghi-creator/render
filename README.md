@@ -48,9 +48,8 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 
 1.  **Database:** Execute the SQL script located in `resources` in SQL Server Management Studio.
 2.  **Config:** If running from source, ensure `utils/DatabaseConnection.java` has the correct SQL Server credentials (localhost is recommended for grading).
-3.  **Run:**
-    * **Recommended:** Open a terminal in the jar folder and run:
+3.  **Run:** Open a terminal in the jar folder and run:
         ```bash
         java -jar Admin.jar
         ```
-    * **Note for macOS:** If the app fails to launch via double-click, it is likely due to security restrictions on the native JavaFX libraries (`.dylib` files). The command line method above resolves this.
+(`.dylib` files). The command line method above resolves this.
