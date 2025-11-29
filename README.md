@@ -36,8 +36,8 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 ## 3. Files included in submission
 | Folder / File | Description |
 | :--- | :--- |
-| `src` | Complete source code with 3-layer architecture packages. |
-| `lib` | Contains the `mssql-jdbc` driver jar. |
+| `source` | Complete source code with 3-layer architecture packages. |
+| `mssql-jdbc-13.2.1.jre11.jar` | Contains the `mssql-jdbc` driver jar. |
 | `resources` | FXML layout files, CSS styles, and SQL script. |
 | `jar` | Runnable JAR files of the application. |
 | `screenshots` | Screenshots of implemented features. |
@@ -54,4 +54,4 @@ This feature allows the admin to view a list of users fetched directly from a Mi
     ```bash
      java -jar JavaProject.jar
     ```
-    Method 2: execute the file AppLauncher.java inside the src folder of source 
+    Method 2: Execute the file AppLauncher.java inside the src folder of source 
