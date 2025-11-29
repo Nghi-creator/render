@@ -2,12 +2,11 @@
 
 * **Student ID:** 23127093
 * **Name:** Nguyễn Gia Nghi
-* **Self-Evaluated Score:** 10/10
-
+  
 ---
 
-## 1. Feature Implemented
-**User Management (View list & Lock user)**
+## 1. Feature implemented
+**User management (View list & Lock user)**
 
 This feature allows the admin to view a list of users fetched directly from a Microsoft SQL Server database and lock a specific user account via the GUI.
 
@@ -40,14 +39,14 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 | `src` | Complete source code with 3-layer architecture packages. |
 | `lib` | Contains the `mssql-jdbc` driver jar. |
 | `resources` | FXML layout files, CSS styles, and SQL script. |
-| `Admin.jar` | Runnable JAR file of the application. |
+| `jar` | Runnable JAR files of the application. |
 | `screenshots` | Screenshots of implemented features. |
 | `README.md` | Instructions of classes and methods related to the demo feature. |
 
 ## 4. How to Run
 
 1. **Database:** Execute the SQL script located in `resources` in SQL Server Management Studio.
-2. **Config:** Customize the password and user of your own database in the file `utils/DatabaseConnection.java`.
+2. **Config:** Fill in the password and username of your own database in the file `utils/DatabaseConnection.java`.
 3. **Run:** Open Command Prompt or Terminal, go to the jar folder path and run:
 
 ```bash
