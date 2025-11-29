@@ -51,4 +51,4 @@ This feature allows the admin to view a list of users fetched directly from a Mi
 3. **Run:** Open Command Prompt or Terminal, go to the jar folder path and run:
 
 ```bash
-java -jar Admin.jar
+ java -jar JavaProject.jar
